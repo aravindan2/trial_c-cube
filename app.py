@@ -1,10 +1,12 @@
+import os
 import streamlit as st
 import pandas as pd
 import google.generativeai as genai
 from langchain_core.prompts import PromptTemplate
 
 # Configure Gemini API
-api_key = "AIzaSyC_0zV2_iWEe0F58MAisYtdYUwipzIsPIE"
+os.environ['some_key'] = st.secrets['some_key'] =api_key 
+
 genai.configure(api_key=api_key)
 llm = genai.GenerativeModel("gemini-1.5-flash")
 
