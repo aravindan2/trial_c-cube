@@ -1,15 +1,13 @@
-Package                      Version
----------------------------- --------------
-google                       3.0.0
-google-ai-generativelanguage 0.6.10
-google-api-core              2.23.0
-google-api-python-client     2.154.0
-google-auth                  2.36.0
-google-auth-httplib2         0.2.0
-google-generativeai          0.8.3
-google-pasta                 0.2.0
-googleapis-common-protos     1.66.0
-langchain-core               0.3.25
-langsmith                    0.2.3
-libclang                     18.1.1
+google                      
+google-ai-generativelanguage
+google-api-core             
+google-api-python-client     
+google-auth                 
+google-auth-httplib2        
+google-generativeai          
+google-pasta                
+googleapis-common-protos   
+langchain-core               
+langsmith                   
+libclang                     
 google.generativeai
