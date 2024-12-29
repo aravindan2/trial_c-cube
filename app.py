@@ -5,7 +5,7 @@ import google.generativeai as genai
 from langchain_core.prompts import PromptTemplate
 
 # Configure Gemini API
-os.environ['some_key'] = st.secrets['some_key'] =api_key 
+api_key=os.environ['some_key'] = st.secrets['some_key']  
 
 genai.configure(api_key=api_key)
 llm = genai.GenerativeModel("gemini-1.5-flash")
