@@ -12,3 +12,4 @@ googleapis-common-protos     1.66.0
 langchain-core               0.3.25
 langsmith                    0.2.3
 libclang                     18.1.1
+google.generativeai
